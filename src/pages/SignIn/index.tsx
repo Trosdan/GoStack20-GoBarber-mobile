@@ -17,7 +17,7 @@ import * as Yup from 'yup';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
-import { useAuth } from '../../hooks/auth';
+import { useAuth } from '../../hooks/Auth';
 
 import getValidationErrors from '../../utils/getvalidationErrors';
 
