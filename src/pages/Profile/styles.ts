@@ -8,8 +8,8 @@ export const Container = styled.View`
 `;
 
 export const BackButton = styled.TouchableOpacity`
-  margin-top: 40;
-  margin-top: 32;
+  height: 200px;
+  border: 1px solid red;
 `;
 
 export const Title = styled.Text`
@@ -20,7 +20,9 @@ export const Title = styled.Text`
   text-align: left;
 `;
 
-export const UserAvatarButton = styled.TouchableOpacity``;
+export const UserAvatarButton = styled.TouchableOpacity`
+  margin-top: 32px;
+`;
 
 export const UserAvatar = styled.Image`
   width: 186px;
