@@ -8,8 +8,7 @@ export const Container = styled.View`
 `;
 
 export const BackButton = styled.TouchableOpacity`
-  height: 200px;
-  border: 1px solid red;
+  margin-top: 40px;
 `;
 
 export const Title = styled.Text`
